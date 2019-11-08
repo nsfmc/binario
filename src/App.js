@@ -67,10 +67,25 @@ function BinBlock(props) {
 
     return newValue;
   };
+  
   const data = bitmaskFromValue(value);
+  const maxValueForBlock = Math.pow(2, bits) - 1;
 
   return (
-    <div className="binblock">
+    <div className="binblock"
+      onClick={(evt) => {
+        if (evt.shiftKey) {
+          if (value === 0) {
+            onChange(maxValueForBlock)
+          }
+          else if (value < maxValueForBlock) {
+            onChange(maxValueForBlock);
+          } else {
+            onChange(0)
+          }
+        }
+      }}
+    >
       {range(bits).map((_, index) => {
         const active = data[index];
         return (
