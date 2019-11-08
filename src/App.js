@@ -38,6 +38,7 @@ function App() {
                   })
                 }
               />
+              <span className="bin-value">{`${val}`.padStart(2,'0')}</span>
             </div>
           );
         })}
@@ -71,20 +72,35 @@ function BinBlock(props) {
   return (
     <div className="binblock">
       {range(bits).map((_, index) => {
+        const active = data[index];
         return (
-          <div
+          <button
             key={index}
-            className={["block", data[index] ? "active" : null]
+            className={["block", active ? "active" : null]
               .filter(Boolean)
               .join(" ")}
             onClick={() => {
               onChange(flipNthBit(value, index));
             }}
-          ></div>
+            title={`flip the ${ordinal(index+1)} bit ${active ? 'off' : 'on'}`}
+          />
         );
       })}
     </div>
   );
+}
+
+const ordinal = num => {
+  switch(num){
+    case 1:
+      return '1st'
+    case 2:
+      return '2nd'
+    case 3: 
+    return '3rd'
+    default:
+      return `${num}th`
+  }
 }
 
 export default App;

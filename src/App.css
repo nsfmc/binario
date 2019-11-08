@@ -25,6 +25,7 @@
 .row-row {
   margin-bottom: 30px;
   color: #f0f0f0;
+  font-size: 16px;
 }
 .row-row button {
   border: 0;
@@ -50,9 +51,15 @@
 .block {
   width: 20px;
   height: 20px;
-  outline: 1px solid #ccc;
+  border: 1px solid #ccc;
+  background-color: transparent;
   cursor: pointer;
 }
 .block.active {
   background-color: #ccc;
+}
+
+.bin-value {
+  margin-left: 1em;
+  color: #4d5564;
 }
