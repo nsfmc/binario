@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: andale mono, monospace;
 }
 
 .App-logo {
@@ -11,12 +12,47 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding-top: 200px;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.row-row {
+  margin-bottom: 30px;
+  color: #f0f0f0;
+}
+.row-row button {
+  border: 0;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  color: #f0f0f0;
+}
+
+.bitrow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bitrow > span {
+  margin-right: 1em;
+}
+
+.binblock {
+  display: flex;
+}
+.block {
+  width: 20px;
+  height: 20px;
+  outline: 1px solid #ccc;
+  cursor: pointer;
+}
+.block.active {
+  background-color: #ccc;
 }
