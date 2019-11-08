@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/binario/static/css/main.ecdf2cfa.chunk.css",
-    "main.js": "/binario/static/js/main.f14157f9.chunk.js",
-    "main.js.map": "/binario/static/js/main.f14157f9.chunk.js.map",
+    "main.css": "/binario/static/css/main.42cfb528.chunk.css",
+    "main.js": "/binario/static/js/main.c42b9f51.chunk.js",
+    "main.js.map": "/binario/static/js/main.c42b9f51.chunk.js.map",
     "runtime-main.js": "/binario/static/js/runtime-main.5311f199.js",
     "runtime-main.js.map": "/binario/static/js/runtime-main.5311f199.js.map",
     "static/js/2.02a7b6b1.chunk.js": "/binario/static/js/2.02a7b6b1.chunk.js",
     "static/js/2.02a7b6b1.chunk.js.map": "/binario/static/js/2.02a7b6b1.chunk.js.map",
     "index.html": "/binario/index.html",
-    "precache-manifest.8986658b59e43adae3adf130d86e227e.js": "/binario/precache-manifest.8986658b59e43adae3adf130d86e227e.js",
+    "precache-manifest.beb8af5c524f0ac187d4f0bb47becc12.js": "/binario/precache-manifest.beb8af5c524f0ac187d4f0bb47becc12.js",
     "service-worker.js": "/binario/service-worker.js",
-    "static/css/main.ecdf2cfa.chunk.css.map": "/binario/static/css/main.ecdf2cfa.chunk.css.map"
+    "static/css/main.42cfb528.chunk.css.map": "/binario/static/css/main.42cfb528.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.5311f199.js",
     "static/js/2.02a7b6b1.chunk.js",
-    "static/css/main.ecdf2cfa.chunk.css",
-    "static/js/main.f14157f9.chunk.js"
+    "static/css/main.42cfb528.chunk.css",
+    "static/js/main.c42b9f51.chunk.js"
   ]
 }
